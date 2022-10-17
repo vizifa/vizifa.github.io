@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+
+<head>
+    <!--<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />-->
+    <title>Vinita Lakhani</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="BT20CSE121_profile.css" rel="stylesheet" type="text/css" media="all" />
+
+</head>
+
+<body>
+    <div id="wrapper" class="container">
+        <div id="navbar">
+            <ul>
+                <li><a href="#About Me">About Me</a></li>
+                <li><a href="#Experience">Experience</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Education">Education</a></li>
+                <li><a href="#Contact">Contact Me</a></li>
+            </ul><br>
+        </div>
+        <div class="head">
+            <h1>I'm Vinita</h1>
+            <h2>A Programmer</h2>
+        </div>
+        <div id="page">
+            <a name="About Me"></a>
+            <div id="content">
+                <div id="cbox1">
+                    <h2>About Me</h2>
+                    <hr width=50%>
+                    <center>
+                        <a href="/images/profile.jpeg"> <img src="/images/profile.jpeg"></a>
+                        <br> Hi! I am a computer enthusiast currently studying at VNIT, Nagpur.<br> Find out more about me!<br>
+                        <a href="https://github.com/vizifa" class="fa fa-github"></a>
+                        <a href="https://www.linkedin.com/in/vinita-lakhani-3372b221b/" class="fa fa-linkedin"></a>
+                        <a href="https://www.instagram.com/vizifa/" class="fa fa-instagram"></a>
+                        <a href="https://twitter.com/vizifa_06" class="fa fa-twitter"></a>
+                    </center>
+                    <a name="Experience"></a>
+                </div>
+                <br>
+
+                <div id="cbox2">
+                    <h2>Experience</h2>
+                    <hr width=50%>
+                    <h3>Summer Intern Aug 21 - Oct 21</h3>
+
+                    IvLabs, Nagpur (Maharashtra)
+                    <ul>
+                        <li>Worked in the field of reinforcement learning.</li>
+                        <li>Focused on tabular RL algorithms namely, Q Learning and SARSA lambda.</li>
+                        <li>Implemented these algorithms on various environments</li>
+                    </ul>
+                    <a name="Projects"></a>
+                </div>
+                <br>
+                <div id="cbox1">
+                    <h2>Projects</h2>
+                    <hr width=50%>
+                    <div class="cards">
+
+                        <div class="card">
+                            <a href="https://github.com/vizifa/Gym-Snake-AI">
+                                <h3>Snake AI Aug 21 - Oct 21</h3>
+                                Tools: Python
+                                <ul>
+                                    <li>Trained an agent to solve the classical game snake using tabular reinforcement learning methods, Q Learning and Sarsa Lambda</li>
+                                    <li>The state space was defined by 2 parameters: The direction of the apple with respect to the head of the snake, and If the cells adjacent to the body contain the snake’s body or a wall.
+                                    </li>
+                                </ul>
+                            </a>
+
+                        </div>
+                        <div class="card">
+                            <a href="https://github.com/vizifa/heap_simulation">
+
+                                <h3>Heap Simulation Apr 22</h3>
+                                Tools: C
+                                <ul>
+                                    <li>Simulated the working of a heap and a garbage collector in C.</li>
+                                    <li>The free list and allocated list were stored in linked lists.</li>
+                                    <li>The buddy system was used to allocate memory.</li>
+                                    <li>The garbage collector was implemented using reference counting.</li>
+                                </ul>
+                            </a>
+
+                        </div>
+                        <div class="card">
+                            <a href="https://github.com/IvLabs/MPGR">
+
+                                <h3>Motion Planning for Ground Robot Nov 21 - Apr 22</h3>
+                                <ul>
+                                    <li>Implemented path planning algorithms like A* and Dijkstra’s Sahayak, an autonomous covid aid bot.</li>
+                                    <li>Used Ramer–Douglas–Peucker and B-Spline algorithms to smoothen the path.</li>
+                                    <li>Implemented Extended Kalman filter to find the pose of a robot with linear and angular velocity odometry readings from a LIDAR sensor.</li>
+                                </ul>
+                            </a>
+                        </div>
+
+                    </div>
+                    <a name="Education"></a>
+                </div>
+                <br>
+                <div id="cbox2">
+                    <h2>Education</h2>
+                    <hr width=50% noshade="noshade">
+                    <table>
+                        <tr>
+                            <th>Qualification</th>
+                            <th>Institute</th>
+                            <th>Year</th>
+                            <th>CGPA</th>
+                        </tr>
+                        <tr>
+                            <td>BTech</td>
+                            <td>Visvesvaraya National Institute of Technology, Nagpur</td>
+                            <td>2024</td>
+                            <td>9.18</td>
+                        </tr>
+                        <tr>
+                            <td>Class XII(HSC)</td>
+                            <td>Delhi Public School, Pune</td>
+                            <td>2020</td>
+                            <td>96.6%</td>
+                        </tr>
+                        <tr>
+                            <td>Class X(SSC)</td>
+                            <td>Delhi Public School, Pune</td>
+                            <td>2018</td>
+                            <td>93.7%</td>
+                        </tr>
+                    </table>
+                </div>
+
+            </div>
+            <div id="footer">
+                <a name="Contact"></a>
+                <div style="text-align:center">
+                    <h2>Contact Me</h2>
+                    <p>Swing by for a cup of coffee, or leave us a message:</p>
+                    <br>
+                </div>
+                <form action="mailto:vinita.lakhani.06@gmail.com" method="post" enctype="text/plain">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                    <center><input type="submit" value="Submit"></center>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
